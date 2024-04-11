@@ -1,3 +1,5 @@
+package BJ;
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
