@@ -10,8 +10,12 @@ public class B10156 {
         int N = scanner.nextInt();
         int M = scanner.nextInt();
 
-        int money = K*N;
-        int result = money-M;
-        System.out.println(result);
+        int cost = K*N;
+
+        if(cost > M) {
+            System.out.println((cost-M));
+        } else {
+            System.out.println("0");
+        }
     }
 }
